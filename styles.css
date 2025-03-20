@@ -291,3 +291,7 @@ nav {
 .footer__links a:hover {
     color: var(--primary-color);
 }
+
+a {
+    text-decoration: none;
+}
