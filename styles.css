@@ -163,7 +163,7 @@ nav {
 }
 
 .container .services {
-    top: 50%;
+    top: 45%;
     right: 0;
     transform: translate(0, -50%) rotate(90deg);
     padding: calc(1rem -4px) calc(2rem -4px);
@@ -173,7 +173,7 @@ nav {
 }
 
 .container .apptomate {
-    top: 25%;
+    top: 55%;
     left: 0;
     transform: translate(0, -50%) rotate(-90deg);
     padding: calc(1rem -4px) calc(2rem -4px);
@@ -243,6 +243,20 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+}
+.intro_heading {
+    position: absolute;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-left: 15px;
+    opacity: 0;
+    animation: fade-in 0.3s ease-in-out forwards;
+    animation-delay: 8s;
+}
+
+span {
+    color: red;
+    font-weight: 700;
 }
 
 .footer p {
